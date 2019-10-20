@@ -54,9 +54,9 @@ import java.util.Arrays;
  * @create 2019/10/17
  * @since 1.0.0
  */
-public class RemoveDuplicates {
+public class RemoveDuplicates_26 {
     public static void main(String[] args) {
-        RemoveDuplicates.Solution solution = new RemoveDuplicates().new Solution();
+        RemoveDuplicates_26.Solution solution = new RemoveDuplicates_26().new Solution();
         //Test
         int[] nums = {1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2};
         int result = solution.removeDuplicates(nums);

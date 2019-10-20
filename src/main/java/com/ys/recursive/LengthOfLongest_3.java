@@ -39,9 +39,9 @@ import java.util.Map;
  * @create 2019/10/18
  * @since 1.0.0
  */
-public class LengthOfLongest {
+public class LengthOfLongest_3 {
     public static void main(String[] args) {
-        LengthOfLongest.Solution solution = new LengthOfLongest().new Solution();
+        LengthOfLongest_3.Solution solution = new LengthOfLongest_3().new Solution();
         String str = "pwwkew";//3
 //        String str = "bbbbb";//1
         //       String str = "abcabcbb";//3

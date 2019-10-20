@@ -28,9 +28,9 @@ import java.util.Arrays;
  * @create 2019/10/17
  * @since 1.0.0
  */
-public class PitTwoSum {
+public class PitTwoSum_1 {
     public static void main(String[] args) {
-        Solution solution = new PitTwoSum().new Solution();
+        Solution solution = new PitTwoSum_1().new Solution();
         //Test
         int[] nums = {2, 7, 11, 15};
         int target = 9;

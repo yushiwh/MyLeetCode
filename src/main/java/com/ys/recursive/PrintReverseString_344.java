@@ -9,10 +9,6 @@
 package com.ys.recursive;
 
 
-import com.ys.myleetcode.RemoveDuplicates;
-
-import java.util.Arrays;
-
 /**
  * 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 char[] 的形式给出。
  * <p>
@@ -25,10 +21,10 @@ import java.util.Arrays;
  * @create 2019/10/18
  * @since 1.0.0
  */
-public class PrintReverseString {
+public class PrintReverseString_344 {
     public static void main(String[] args) {
         String str = "yushi";
-        PrintReverseString.Solution solution = new PrintReverseString().new Solution();
+        PrintReverseString_344.Solution solution = new PrintReverseString_344().new Solution();
         //Test
         str = solution.reverseString(str.toCharArray());
         System.out.println(str);

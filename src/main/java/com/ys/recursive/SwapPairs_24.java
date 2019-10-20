@@ -18,9 +18,9 @@ package com.ys.recursive;
  * @create 2019/10/18
  * @since 1.0.0
  */
-public class SwapPairs {
+public class SwapPairs_24 {
     public static void main(String[] args) {
-        SwapPairs.Solution solution = new SwapPairs().new Solution();
+        SwapPairs_24.Solution solution = new SwapPairs_24().new Solution();
 
     }
 
