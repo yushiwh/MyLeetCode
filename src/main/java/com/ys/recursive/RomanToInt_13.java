@@ -97,11 +97,9 @@ public class RomanToInt_13 {
      *
      */
     class Solution {
-        Map<Character, Integer> romaMap = new HashMap<>();
-        Map<String, Integer> specialMap = new HashMap<>();
-
-
         public int romanToInt(String s) {
+            Map<Character, Integer> romaMap = new HashMap<>();
+//        Map<String, Integer> specialMap = new HashMap<>();
             int sum = 0;
             //常规的map集合
             romaMap.put('I', 1);
@@ -113,12 +111,12 @@ public class RomanToInt_13 {
             romaMap.put('M', 1000);
 
             //特殊的map集合
-            specialMap.put("IV", 4);
-            specialMap.put("IX", 9);
-            specialMap.put("XL", 40);
-            specialMap.put("XC", 90);
-            specialMap.put("CD", 400);
-            specialMap.put("CM", 900);
+//        specialMap.put("IV", 4);
+//        specialMap.put("IX", 9);
+//        specialMap.put("XL", 40);
+//        specialMap.put("XC", 90);
+//        specialMap.put("CD", 400);
+//        specialMap.put("CM", 900);
 
 
             //遍历字符串
@@ -130,24 +128,28 @@ public class RomanToInt_13 {
             for (int i = 0; i < chars.length; i++) {
                 if (chars[i] == 'I' && i < chars.length - 1) {
                     if (chars[i + 1] == 'V') {
-                        sum = sum + specialMap.get("IV");
+                        //  sum = sum + specialMap.get("IV");
+                        sum = sum + 4;
                         i++;
                         continue;
                     }
                     if (chars[i + 1] == 'X') {
-                        sum = sum + specialMap.get("IX");
+                        //  sum = sum + specialMap.get("IX");
+                        sum = sum + 9;
                         i++;
                         continue;
                     }
                 }
                 if (chars[i] == 'X' && i < chars.length - 1) {
                     if (chars[i + 1] == 'L') {
-                        sum = sum + specialMap.get("XL");
+                        // sum = sum + specialMap.get("XL");
+                        sum = sum + 40;
                         i++;
                         continue;
                     }
                     if (chars[i + 1] == 'C') {
-                        sum = sum + specialMap.get("XC");
+                        // sum = sum + specialMap.get("XC");
+                        sum = sum + 90;
                         i++;
                         continue;
                     }
@@ -155,12 +157,14 @@ public class RomanToInt_13 {
                 }
                 if (chars[i] == 'C' && i < chars.length - 1) {
                     if (chars[i + 1] == 'D') {
-                        sum = sum + specialMap.get("CD");
+                        //    sum = sum + specialMap.get("CD");
+                        sum = sum + 400;
                         i++;
                         continue;
                     }
                     if (chars[i + 1] == 'M') {
-                        sum = sum + specialMap.get("CM");
+                        //   sum = sum + specialMap.get("CM");
+                        sum = sum + 900;
                         i++;
                         continue;
                     }
