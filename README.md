@@ -11,4 +11,5 @@ LengthOfLongest_3|无重复字符的最长子串| <font color=orange>中等</fon
 LongestCommonPrefix_14|查找字符串数组中的最长公共前缀| <font color=green>简单</font>| 14| 很巧妙，并非简单
 IsValid_20|给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效| <font color=green>简单</font>| 20| 利用栈的特性，很巧妙，注意里面的判断能够提高效率
 StrStr_28|给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。| <font color=green>简单</font>| 28| 暴力比对，KMP实在太难理解了
+CountAndSay_38|报数序列是一个整数序列，按照其中的整数的顺序进行报数，得到下一个数。| <font color=green>简单</font>| 28| 暴力比对，也很难哦
 
